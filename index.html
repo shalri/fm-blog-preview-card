@@ -18,26 +18,56 @@
   <body class="flex min-h-screen flex-col">
     <main class="flex h-full flex-grow items-center justify-center">
       <div
-        class="mx-6 h-[520px] w-[380px] rounded-[18px] border-[2px] border-bp-grey bg-white shadow-bp hover:shadow-bp-active"
+        class="mx-6 h-[520px] w-[380px] min-w-[300px] rounded-[18px] border-[2px] border-bp-grey bg-white shadow-bp active:shadow-bp-active"
       >
-        <div class="p-5">
+        <div class="relative p-5">
           <img
             src="assets/images/illustration-article.svg"
             alt="illustration article"
             class="rounded-xl object-contain"
           />
+          <div class="pt-6">
+            <h2
+              class="leading-0 h-7 w-20 rounded-md bg-bp-primary px-1 pt-1 text-center text-sm font-bold"
+            >
+              Learning
+            </h2>
+            <h3 class="pt-3.5 text-sm text-bp-black">Published 21 Dec 2023</h3>
+            <h1 class="mt-3.5 text-2xl font-bold">
+              <a href="#" class="active:text-bp-primary">
+                HTML &amp; CSS foundations
+              </a>
+            </h1>
+            <p class="mb-6 mt-3.5 text-bp-grey">
+              These languages are the backbone of every website, defining
+              structure, context, and presentation.
+            </p>
+            <div class="flex items-center gap-3">
+              <img
+                src="./assets/images/image-avatar.webp"
+                alt="image avatar"
+                class="rounded-full"
+                width="32px"
+                height="32px"
+              />
+              <p class="text-sm font-bold">Greg Hooper</p>
+            </div>
+          </div>
         </div>
       </div>
     </main>
 
-    <footer class="text-center text-sm text-bp-grey">
+    <footer class="hide-short text-center text-sm text-bp-grey max-sm:hidden">
       Challenge by
       <a
         href="https://www.frontendmentor.io?ref=challenge"
         target="_blank"
         class="text-bp-black"
         >Frontend Mentor</a
-      >. Coded by <a class="text-bp-black" href="#">FScode &middot; Shalri</a>.
+      >. Coded by
+      <a class="text-bp-black" href="https://shalri.github.io/fscode"
+        >FScode &middot; Shalri</a
+      >.
     </footer>
   </body>
 </html>
