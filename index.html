@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en" class="bg-bp-primary font-figtree text-body antialiased">
+<html lang="en" class="bg-bp-primary font-figtree antialiased">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -16,11 +16,11 @@
     <title>Frontend Mentor | Blog preview card</title>
   </head>
   <body class="flex min-h-screen flex-col">
-    <main class="flex h-full flex-grow items-center justify-center">
+    <main class="h-100vh flex flex-grow items-center justify-center">
       <div
-        class="mx-6 h-[520px] w-[380px] min-w-[300px] rounded-[18px] border-[2px] border-bp-grey bg-white shadow-bp active:shadow-bp-active"
+        class="relative mx-6 h-[522px] w-[384px] min-w-[350px] rounded-[20px] border border-bp-black bg-white shadow-bp active:shadow-bp-active"
       >
-        <div class="relative p-5">
+        <div class="p-6">
           <img
             src="assets/images/illustration-article.svg"
             alt="illustration article"
@@ -28,7 +28,7 @@
           />
           <div class="pt-6">
             <h2
-              class="leading-0 h-7 w-20 rounded-md bg-bp-primary px-1 pt-1 text-center text-sm font-bold"
+              class="leading-0 flex h-[29px] w-[82px] items-center justify-center rounded-md bg-bp-primary text-center text-sm font-bold"
             >
               Learning
             </h2>
@@ -42,7 +42,7 @@
               These languages are the backbone of every website, defining
               structure, context, and presentation.
             </p>
-            <div class="flex items-center gap-3">
+            <div class="absolute bottom-6 flex items-center gap-3">
               <img
                 src="./assets/images/image-avatar.webp"
                 alt="image avatar"

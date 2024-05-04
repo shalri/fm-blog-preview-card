@@ -9,6 +9,10 @@
 @tailwind components;
 @tailwind utilities;
 
+html {
+  font-size: clamp(0.9rem, 5vw, 1rem);
+}
+
 @media (max-height: 700px) {
   .hide-short {
     display: none;
