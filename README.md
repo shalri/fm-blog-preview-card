@@ -18,8 +18,8 @@ This is a solution to the [Blog preview card challenge on Frontend Mentor](https
 
 ### Links
 
-- Solution URL: (https://shalri.github.io/fm-blog-preview-card/)
-- Live Site URL: (https://shalri.github.io/fm-blog-preview-card/)
+- Solution URL: (https://github.com/shalri/fm-blog-preview-card)
+- Live Site URL: (https://shalri.github.io/fm-blog-preview-card)
 
 ## My process
 
